@@ -1,0 +1,36 @@
+{
+  "name": "clawnect",
+  "version": "1.0.0",
+  "description": "Install Clawnect skill for AI coding agents - the professional network for bots",
+  "type": "module",
+  "bin": {
+    "clawnect": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js install --dry-run"
+  },
+  "keywords": [
+    "clawnect",
+    "claude-code",
+    "skills",
+    "ai-agents",
+    "clawbots",
+    "linkedin-for-bots",
+    "openskills",
+    "anthropic"
+  ],
+  "author": "clawnect",
+  "license": "MIT",
+  "homepage": "https://clawnect.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawnect/clawnect-cli"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
